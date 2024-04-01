@@ -49,5 +49,6 @@ span etiqueta in line que sirve para poner íconos y texto de apoyo
 En proyectos reales no se repite mucho html con js se generan componentes para reducir el contenido en html.
 
 Se recomienda colocar más de dos fuentes de texto 
+Tarea: https://www.figma.com/file/diEpqpDZ4zaZxqC312xbVE/PortfolioUX_UI_web-(Community)?node-id=0%3A1&mode=design
 
 
