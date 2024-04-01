@@ -1,90 +1,88 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <title>Mi primera pagina web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeanpier Ancori Sánchez</title>
     </head>
+    <style>
+        *{
+            background-color: #111827;
+            color: white;
+            font-family: Helvetica, sans-serif;
+        }
+    </style>
     <body>
-        <!--Titulos en HTML-->
-        <h1>Mi primer titulo</h1>
-        <h2>Mi primer titulo</h2>
-        <h3>Mi primer titulo</h3>
-        <h4>Mi primer titulo</h4>
-        <h5>Mi primer titulo</h5>
-        <h6>Mi primer titulo</h6>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Officia quidem tempora obcaecati quasi atque dolore cupiditate, 
-            in recusandae! Neque accusamus laborum maiores pariatur incidunt? 
-            Autem blanditiis omnis accusamus quis nostrum!
-        </p>
-        <!--Existen etiquetas por montones-->
-        <!--Atributos de etiquetas src,alt,widt,height-->
-        <img src="https://scontent.faqp5-1.fna.fbcdn.net/v/t1.6435-9/66685481_2251115111662170_4650869954256568320_n.png?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=jbAIN4didHYAX-E-ch-&_nc_ht=scontent.faqp5-1.fna&oh=00_AfAuKLRqsD4Z2sc-qnVXL_O5DxYxpwvVMR6gK9-lzZX5mw&oe=6627E562" 
-             alt="Logo CERTUS"
-             width="200px"
-             height="200px"
-        >
-        <p>
-            <img src="./img/descarga.jpeg" alt="Edificio">
-        </p>
-        <!--Contenedor 1-->
-        <div style="border: solid red;">
-            <h1  style="border: solid green;">Mi primer div</h1>
-            <p   style="border: solid blue;">Esto es un parrafo.</p> 
-            <img style="border: solid blueviolet;" src="./img/descarga.jpeg" alt="Edificio" width="100">
-            <img style="border: solid aqua;"       src="./img/descarga.jpeg" alt="Edificio" width="100">
-        </div>
-        
-        <!--Contenedor 2-->
-        <div style="border:solid; display: flex; justify-content: center; ">   
-            <div>
-                <h1  style="border: solid green;">Mi primer div</h1>
-                <p   style="border: solid blue;">Esto es un parrafo.</p> 
-            </div>
-            <div>
-                <img style="border: solid blueviolet;" src="./img/descarga.jpeg" alt="Edificio" width="100">
-                <img style="border: solid aqua;"       src="./img/descarga.jpeg" alt="Edificio" width="100">
-            </div>
-        </div>
 
-        <!--Contenedor 3-->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+        <!--Section - Presentación-->
         <section>
             <div>
-                <a href="https://web.facebook.com/" style="border: solid;">
-                    <img src="./img/descarga.jpeg"
-                         alt="icono-enlace"
-                         width="20">
-                    Facebook
-                </a>
-                <a href="https://web.facebook.com/" style="border: solid;"
-                   target="_blank">
-                    <img src="./img/descarga.jpeg"
-                         alt="icono-enlace"
-                         width="20">
-                    Facebook
-                </a>
-                
+                <p>👏 Hola, soy</p>
+                <h1>Jeanpier</h1>
+                <p>Desarrollador Web</p>
+            </div>
+
+            <div>
+                <img src="./img/landing/coding.svg" alt="logo-presentación">
             </div>
         </section>
-
-        <!--Galeria redes sociales-->
-        <a href="./galeria.html">Galería de redes socials</a>
-        <p>
-            <strong>
-                <i>
-                    <u>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero atque ad blanditiis dolores autem quia? Inventore sequi, quaerat ullam laudantium vitae earum corrupti rem laboriosam, quibusdam repellat nulla dolorum praesentium?
-                    </u>
-                </i>
-            </strong>
-        </p>
-        
-        <!--Contenedor 4-->
+        <!--Section - Proyectos-->
         <section>
-
+            <h2>Poyectos</h2>
+            <div>
+                <div>
+                    <img src="./img/projects/mail-box.png" alt="">
+                    <img src="./img/projects/viajes.png" alt="">
+                </div>
+                <div>
+                    <img src="./img/projects/to-do-list.png" alt="">
+                    <img src="./img/projects/datos.png" alt="">
+                </div>
+            </div>
         </section>
-        
+        <!--Section - Habilidades-->
+        <section>
+            <h2>Habilidades</h2>
+            <div>
+                <span><img src="./img/techs/docker.png" alt="">Docker</span>
+                <span><img src="./img/techs/html.png" alt="">Html</span>
+                <span><img src="./img/techs/typescript.svg" alt="">TypeScript</span>
+                <span><img src="./img/techs/mongodb.svg" alt="">MongoDB</span>
+            </div>
+            <div>
+                <span><img src="./img/techs/git.png" alt="">Git</span>            
+                <span><img src="./img/techs/css.png" alt="">CSS 3</span>        
+                <span><img src="./img/techs/reactjs.svg" alt="">React</span>
+                <span><img src="./img/techs/mssql.svg" alt="">MSSQL</span>
+            </div>
+            <div>
+                <span><img src="./img/techs/figma.svg" alt="">Figma</span>
+                <span><img src="./img/techs/tailwind.svg" alt="">TailwindCSS</span>
+                <span><img src="./img/techs/vue.svg" alt="">Vue</span>
+                <span><img src="./img/techs/pgsql.svg" alt="">PostgreSQL</span>
+            </div>
+            <div>
+                <span><img src="./img/techs/node-js.svg" alt="">Node.JS</span>
+                <span><img src="./img/techs/javascript.svg" alt="">JavaScript</span>
+                <span><img src="./img/techs/nestjs.svg" alt="">Nest.JS</span>
+            </div>
+        </section>
+        <!--Contacto-->
+        <section>
+            <h2>Contacto</h2>
+            <div>
+                <img src="./img/social-media/Linkedin.svg" alt="">
+                <img src="./img/social-media/GitHub.png" alt="">
+                <img src="./img/social-media/outlook.svg" alt="">
+            </div>
+        </section>
     </body>
 </html>
-    

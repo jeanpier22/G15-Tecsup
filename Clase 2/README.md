@@ -40,3 +40,14 @@
 
     ./ solo funciona en windows y mac pero en linux no es compatible 
     un servidor de producción por lo general trabaja con linux
+
+Proyecto Portafolio
+    Figma: https://www.figma.com/file/4vs2PRh5dW4zcgCYcTtB8Z/Portafolio-(Community)?type=design&node-id=161-2421&mode=design&t=E0H2QIl2I4m9R4lZ-0
+
+emmet div*2
+span etiqueta in line que sirve para poner íconos y texto de apoyo
+En proyectos reales no se repite mucho html con js se generan componentes para reducir el contenido en html.
+
+Se recomienda colocar más de dos fuentes de texto 
+
+
