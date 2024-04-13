@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+    display: flex;
+    /* al usar display:flex activamos*/
+    
+    /*alinear elementos de manera horizontal*/
+    justify-content:center;
+
+    /*alinear elementos de manera vertical*/
+    align-items: center;
+    /*height: 600px;*/
+    height: 100vh;
+    border: solid;
+
+}
+div{
+    border: solid red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    /*display: inline; transforma a linea*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
